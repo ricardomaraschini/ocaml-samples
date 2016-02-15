@@ -1,6 +1,6 @@
 (**
  * compiling:
- * ocamlc array.ml -o array
+ * ocamlfind ocamlc -linkpkg -thread -package core <scriptname>.ml -o <scriptname>
  *)
 
 open Core.Std;;
